@@ -1,4 +1,1 @@
-![ahar](https://user-images.githubusercontent.com/62181222/102013718-12779d00-3d7c-11eb-8625-a3a575effdd9.png)
-
-Note: This is onepage dashboard design of resturent management website.
- 
+![ahar](https://user-images.githubusercontent.com/62181222/102014629-25d93700-3d81-11eb-9df4-fde442244081.png)
