@@ -1,72 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Ahar - Resturent Management System</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="asset/styles.css">
-	<script src="https://use.fontawesome.com/49b98aaeb5.js"></script>
+	<meta charset="UTF-8">
+	<title>Nishadol - The Royal Resturant</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/e876ce66c8.js"></script>
 </head>
 <body>
-	<div class="sidebar-left">
-		<table>
-			<tr>
-				<td align="center"><img class="logo" src="icon.png" height="100px" width="100px"></td>
-			</tr>
-			<tr>
+
+<div class="wrapper">
+    <div class="left-sidebar">
+        <h2><img class="logo" src="icon.png" height="100px" width="100px"></h2>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+            <li class="active"><a href="#"><i class="fas fa-tasks"></i>Order Management</a></li>
+            <li><a href="#"><i class="fas fa-tags"></i>Reservasion</a></li>
+            <li><a href="#"><i class="fas fa-percent"></i>Manage Offer</a></li>
+            <li><a href="#"><i class="fas fa-utensils"></i>Food Management</a></li>
+            <li><a href="#"><i class="fas fa-chart-line"></i>Report</a></li>
+            <li><a href="#"><i class="fas fa-users"></i>Workers</a></li>
+			<li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+        </ul> 
+        <div class="footer">
+          <font>Nishadol: The Royal Resturant</font>
+      	</div>
+    </div>
+    <div class="main_content">
+		<div class="header"><b>Order Management</b></div>  
+        <div class="content">
+          <!-- Main Content Code -->
+      	</div>
+    </div>
+    <div class="right-sidebar">
+		<div class="title">Billing Information</div>
+		<div>
+		  <table>
+			<hr/>
+			<thead>
+			  <tr>
+				  <th>Item Name</th>
+				  <th>QTY</th>
+				  <th>Price</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>Chicken Wings(2pcs)</td>
+				<td>2</td>
+				<td>৳90.00</td>
+			  </tr>
+			  <tr>
+				<td>Cheese Burger</td>
+				<td>1</td>
+				<td>৳80.00</td>
+			  </tr>
+			  <tr>
+				<td>Cocacola (1L)</td>
+				<td>1</td>
+				<td>৳60.00</td>
+			  </tr>
+			  <tr>
 				<td></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-home"></i></td>
-				<td class="menu"><a href="/dashboard.html">Home</a></td>
-			</tr>
-			<tr  class="active">
-				<td class="menu-icon"><i class="fa fa-tasks"></i></td>
-				<td class="menu"><a href="/dashboard.html">Order Management</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-tag"></i></td>
-				<td class="menu"><a href="/dashboard.html">Reservation</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-bullseye"></i></td>
-				<td class="menu"><a href="/dashboard.html">Menu 4</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-bullseye"></i></td>
-				<td class="menu"><a href="/dashboard.html">Menu 5</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-bullseye"></i></td>
-				<td class="menu"><a href="/dashboard.html">Menu 6</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-bullseye"></i></td>
-				<td class="menu"><a href="/dashboard.html">Menu 7</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-bullseye"></i></td>
-				<td class="menu"><a href="/dashboard.html">Menu 8</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-bullseye"></i></td>
-				<td class="menu"><a href="/dashboard.html">Menu 8</a></td>
-			</tr>
-			<tr>
-				<td class="menu-icon"><i class="fa fa-bullseye"></i></td>
-				<td class="menu"><a href="/dashboard.html">Menu 9</a></td>
-			</tr>
-			<font style="font-size: 12px; position: fixed; bottom: 25px;text-align: center;padding-left: 60px">Ahar: The Royal Resturent</font>
-		</table>
-	</div>
-	<div class="content">
-		<font align="left" style="font-size: 25px">Order Management</font>
-		<hr/>
-	</div>
-	<div class="sidebar-right">
-		<font align="center" style="font-size: 15px;text-align: center;padding-left: 160px;display: block;">Billing Information</font>
+				<td><b>Total</b></td>
+				<td>৳230.00</td>
+			  </tr>
+			</tbody>
+		  </table>
+		</div>
 		<input type="button" class="button-ok" value="Confirm Order">
 	</div>
+</div>
 
 </body>
-</html> 
+</html>
